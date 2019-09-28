@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" content="kangkang,kangjian">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Myworld</title>
+    <style>
+        #tip{
+    font-weight: bold;
+
+}
+
+.title_p > p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div > .title_ptitle{
+    margin-bottom:-3%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+*[id*= stu]{
+    color: red;
+
+}
+
+table{
+    margin: auto;
+    border: 1px solid silver;
+    border-collapse: collapse;
+}
+tr.headerlink{
+    background-color: green;
+}
+
+tr:hover{
+    background-color: gainsboro;
+    color: azure;
+}
+
+tr.row{
+    background-color: lightsteelblue;
+}
+
+th,td {
+    border: 1px solid silver;
+    padding: 10px;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+.nav{
+    margin-top: 1%;
+    list-style: none;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav > li:last-child {
+    float: right;
+}
+
+.nav > li > a {
+    display: block;
+    padding: 10px 20px;
+    background: lightyellow;
+    color: black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-decoration: none;
+    border-right: 2px solid lightcyan;
+}
+.nav > li:first-child > a {
+    border-radius: 10px 0 0 10px;
+}
+.nav > li:last-child > a {
+    border-radius: 0 10px 10px 0;
+    border-right: none;
+}
+
+.nav >li a:hover,.nav>li>a.selected {
+    background: mistyrose;
+}
+
+
+
+
+    </style>
+</head>
+<body  bgcolor="#ffe4c4">
+    <p style="text-align: center;font-size: 20px;font-weight: bold"> Welcome to the world of 5G </p>
+    <div style="margin:2px;background-color: grey;border-radius: 10px">
+        <ul class="nav">
+            <li><a href="/login">登陆</a></li>
+            <li><a href="#" class="selected">首页</a></li>
+            <li><a href="#">文章</a></li>
+            <li><a href="/reg" target="_blank">注册</a></li>
+            <li><a href="/message_board">留言板</a></li>
+            <li><a href="#">关于</a></li>
+        </ul>
+        <div style="clear: both;"></div>
+    </div>
+
+    <p>让我们来听</p>
+    <audio controls="controls" >
+        <source src="../audio/bg.mp3"type="audio/mp3">
+    </audio>
+
+
+
+
+    <p>在这里你可以看到5G给我们带来的趣事</p>
+    <video  controls width="30%" height="20%" >
+
+        <source src="../vedio/123.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>

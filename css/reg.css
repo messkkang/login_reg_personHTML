@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    background: url("../image/bg.jpg") no-repeat center ;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+
+label {
+    font-size: 8px;
+    text-align: center;
+    }
+
+
+table {
+    min-width : 50px;
+    background-color: bisque;
+    border: double white 10px ;
+    margin: 200px auto;
+    margin-bottom: 0.2%;
+    }
+
+
+tr {
+    min-width : 50px;
+    text-align: center;
+    background-color: bisque;
+    border: double white 10px ;
+
+    margin-bottom: 0.2%;
+    }
+
+
+a {
+    height: 0.1px;
+    width: 0.1px;
+    margin: -2px ;
+    background-color: gainsboro;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    }
